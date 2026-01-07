@@ -83,7 +83,10 @@ The dataset includes 37 engineered features derived from property attributes:
 - **Tabular Features**: 37 engineered features
 - **Image Coverage**: 100% (16,210 training + 5,405 test images)
 
-![Sample Satellite Images](assets/sample_images.png)
+![7600136](https://github.com/user-attachments/assets/778a16a9-2e18-4b82-a984-8384f76e1d4b)
+
+
+
 
 ---
 
@@ -125,8 +128,6 @@ We established baseline performance using traditional machine learning models:
 **Best Tabular-Only Performance:**
 - **XGBoost**: RMSE $114,467 | MAE $65,700 | R² 0.8956
 
-![Baseline Model Comparison](assets/baseline_comparison.png)
-
 ### Stage 4: Image Feature Extraction
 
 **CNN Architectures:**
@@ -157,8 +158,6 @@ We established baseline performance using traditional machine learning models:
 - Feature dimensionality imbalance challenges
 - Less flexibility in modality-specific processing
 
-![Early Fusion Architecture](assets/early_fusion.png)
-
 #### Late Fusion
 
 **Architecture:**
@@ -173,8 +172,6 @@ We established baseline performance using traditional machine learning models:
 **Cons:**
 - Limited cross-modal interaction
 - May not capture complex feature relationships
-
-![Late Fusion Architecture](assets/late_fusion.png)
 
 #### Hybrid Fusion (Our Innovation)
 
@@ -198,7 +195,6 @@ We established baseline performance using traditional machine learning models:
 - More complex architecture
 - Higher computational cost
 
-![Hybrid Fusion Architecture](assets/hybrid_fusion.png)
 
 ### Stage 6: Model Training & Optimization
 
@@ -223,7 +219,8 @@ We established baseline performance using traditional machine learning models:
 - Center attention loss successfully guides focus to property regions
 - Spatial patterns reveal neighborhood context importance
 
-![Grad-CAM Visualizations](assets/gradcam_examples.png)
+<img width="1920" height="985" alt="Grad-CAM Visualizations" src="https://github.com/user-attachments/assets/e1540cde-074a-4134-b12f-a6eecf5470ab" />
+
 
 ---
 
@@ -380,13 +377,10 @@ Generates performance comparisons, visualizations, and final predictions.
 
 5. **Image Context Value**: Satellite imagery captures neighborhood context (greenery, density, proximity) that tabular features cannot fully represent.
 
-![Model Comparison](assets/model_comparison.png)
+<img width="4768" height="3565" alt="model_comparison" src="https://github.com/user-attachments/assets/469191d1-ff68-4912-ad2a-a5160dbcb707" />
 
-![Training History](assets/training_curves.png)
+<img width="1587" height="1989" alt="Feature Importance" src="https://github.com/user-attachments/assets/456285f2-35f2-4327-9462-4ed344a781cf" />
 
-![Prediction Scatter](assets/predictions_vs_actual.png)
-
-![Feature Importance](assets/feature_importance.png)
 
 ---
 
