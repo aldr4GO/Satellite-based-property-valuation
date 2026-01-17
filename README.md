@@ -1,3 +1,5 @@
+![thumbnail.png](https://github.com/aldr4GO/Satellite-based-property-valuation/blob/main/thumbnail/thumbnail.png)
+
 # 🏠🛰️ Satellite-Based Property Valuation
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
